@@ -1,0 +1,12 @@
+C:\Users\hp\Desktop\Assessment\Baked-in-Heaven\BakedInHeaven.BussinessService\bin\Debug\netcoreapp3.1\BakedInHeaven.BussinessService.deps.json
+C:\Users\hp\Desktop\Assessment\Baked-in-Heaven\BakedInHeaven.BussinessService\bin\Debug\netcoreapp3.1\BakedInHeaven.BussinessService.dll
+C:\Users\hp\Desktop\Assessment\Baked-in-Heaven\BakedInHeaven.BussinessService\bin\Debug\netcoreapp3.1\BakedInHeaven.BussinessService.pdb
+C:\Users\hp\Desktop\Assessment\Baked-in-Heaven\BakedInHeaven.BussinessService\bin\Debug\netcoreapp3.1\Baked-in-Heaven.Data-access.dll
+C:\Users\hp\Desktop\Assessment\Baked-in-Heaven\BakedInHeaven.BussinessService\bin\Debug\netcoreapp3.1\Baked-in-Heaven.Data-access.pdb
+C:\Users\hp\Desktop\Assessment\Baked-in-Heaven\BakedInHeaven.BussinessService\obj\Debug\netcoreapp3.1\BakedInHeaven.BussinessService.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\Assessment\Baked-in-Heaven\BakedInHeaven.BussinessService\obj\Debug\netcoreapp3.1\BakedInHeaven.BussinessService.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Assessment\Baked-in-Heaven\BakedInHeaven.BussinessService\obj\Debug\netcoreapp3.1\BakedInHeaven.BussinessService.AssemblyInfo.cs
+C:\Users\hp\Desktop\Assessment\Baked-in-Heaven\BakedInHeaven.BussinessService\obj\Debug\netcoreapp3.1\BakedInHeaven.BussinessService.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Assessment\Baked-in-Heaven\BakedInHeaven.BussinessService\obj\Debug\netcoreapp3.1\BakedInHeaven.BussinessService.csproj.CopyComplete
+C:\Users\hp\Desktop\Assessment\Baked-in-Heaven\BakedInHeaven.BussinessService\obj\Debug\netcoreapp3.1\BakedInHeaven.BussinessService.dll
+C:\Users\hp\Desktop\Assessment\Baked-in-Heaven\BakedInHeaven.BussinessService\obj\Debug\netcoreapp3.1\BakedInHeaven.BussinessService.pdb

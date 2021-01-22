@@ -14,6 +14,8 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
 using Baked_in_Heaven.Data_access;
+using BakedInHeaven.BussinessService;
+using Baked_in_Heaven.Data_access.Repositories;
 
 namespace Baked_in_Heaven
 {
@@ -29,6 +31,9 @@ namespace Baked_in_Heaven
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<IItemService, ItemService>();
+            services.AddTransient<IItemRepository, ItemRepositories>();
+
             var cs = "Host = localhost; Database = BakedInHeavenDb; Username = postgres; Password = Karthu@123";
             services.AddDbContext<applicationdbcontext>(options
                => options.UseNpgsql(cs));

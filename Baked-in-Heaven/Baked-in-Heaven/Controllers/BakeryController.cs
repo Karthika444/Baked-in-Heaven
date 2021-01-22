@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace Baked_in_Heaven.Controllers
 {
     [ApiController]
-    [Route("api/Bakery")]
+    [Route("api/[controller]")]
     public class BakeryController :ControllerBase
     {
         private readonly IItemService _itemService;

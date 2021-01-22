@@ -26,6 +26,7 @@
       "Baked-in-Heaven/1.0.0": {
         "dependencies": {
           "Baked-in-Heaven.Data-access": "1.0.0",
+          "BakedInHeaven.BussinessService": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.1",
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": "5.0.1",
           "Microsoft.EntityFrameworkCore": "5.0.2",
@@ -1356,6 +1357,17 @@
         },
         "compile": {
           "Baked-in-Heaven.Data-access.dll": {}
+        }
+      },
+      "BakedInHeaven.BussinessService/1.0.0": {
+        "dependencies": {
+          "Baked-in-Heaven.Data-access": "1.0.0"
+        },
+        "runtime": {
+          "BakedInHeaven.BussinessService.dll": {}
+        },
+        "compile": {
+          "BakedInHeaven.BussinessService.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -3823,6 +3835,11 @@
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
     "Baked-in-Heaven.Data-access/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BakedInHeaven.BussinessService/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
