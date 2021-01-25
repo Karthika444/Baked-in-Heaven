@@ -5765,7 +5765,6 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Baked-in-Heaven.Data-access >= 1.0.0",
       "BakedInHeaven.BussinessService >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.1",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 5.0.1",
@@ -5803,9 +5802,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\hp\\Desktop\\Assessment\\Baked-in-Heaven\\Baked-in-Heaven.Data-access\\Baked-in-Heaven.Data-access.csproj": {
-              "projectPath": "C:\\Users\\hp\\Desktop\\Assessment\\Baked-in-Heaven\\Baked-in-Heaven.Data-access\\Baked-in-Heaven.Data-access.csproj"
-            },
             "C:\\Users\\hp\\Desktop\\Assessment\\Baked-in-Heaven\\BakedInHeaven.BussinessService\\BakedInHeaven.BussinessService.csproj": {
               "projectPath": "C:\\Users\\hp\\Desktop\\Assessment\\Baked-in-Heaven\\BakedInHeaven.BussinessService\\BakedInHeaven.BussinessService.csproj"
             }

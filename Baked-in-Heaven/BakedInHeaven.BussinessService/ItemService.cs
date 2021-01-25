@@ -17,7 +17,7 @@ namespace BakedInHeaven.BussinessService
             _itemRepository = itemRepository;
         }
 
-        public void Add(Item newItem)
+        public void AddItem(Item newItem)
         {
             List<Item> data = new List<Item>();
             data = _itemRepository.GetItems(); // fetch the entire database
@@ -96,7 +96,7 @@ namespace BakedInHeaven.BussinessService
 
         }
 
-        public void Update(Item itemChange, int id)
+        public void UpdateItem(Item itemChange, int id)
         {
             List<Item> data = new List<Item>();
             data = _itemRepository.GetItems(); // fetch the entire database

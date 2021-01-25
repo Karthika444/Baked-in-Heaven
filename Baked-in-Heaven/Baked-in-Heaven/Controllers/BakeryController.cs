@@ -1,4 +1,5 @@
-﻿using Baked_in_Heaven.Entities;
+﻿
+using Baked_in_Heaven.Entities;
 using BakedInHeaven.BussinessService;
 using BakedInHeaven.BussinessService.Dtos;
 using Microsoft.AspNetCore.Mvc;
@@ -14,13 +15,11 @@ namespace Baked_in_Heaven.Controllers
     public class BakeryController :ControllerBase
     {
         private readonly IItemService _itemService;
-        private readonly IUserService _userService;
-        private readonly IOrderService _orderService;
-        public BakeryController(IItemService itemService, IUserService userService, IOrderService orderService)
+        
+        public BakeryController(IItemService itemService)
         {
             _itemService = itemService;
-            _userService = userService;
-            _orderService = orderService;
+           
         }
         [HttpGet]
         public IEnumerable<ItemDto> GetAllItems()
@@ -30,9 +29,9 @@ namespace Baked_in_Heaven.Controllers
         }
 
         [HttpPost]
-        public void Add(Item item)
+        public void AddItem(Item item)
         {
-            _itemService.Add(item);
+            _itemService.AddItem(item);
         }
 
         [HttpDelete("{Id}")]
@@ -43,9 +42,9 @@ namespace Baked_in_Heaven.Controllers
 
 
         [HttpPut("{Id}")]
-        public void Update(Item item, int Id)
+        public void UpdateItem(Item item, int Id)
         {
-            _itemService.Update(item, Id);
+            _itemService.UpdateItem(item, Id);
         }
 
 

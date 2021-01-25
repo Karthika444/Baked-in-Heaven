@@ -19,7 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Baked-in-Heaven.Data-access\Baked-in-Heaven.Data-access.csproj" />
     <ProjectReference Include="..\BakedInHeaven.BussinessService\BakedInHeaven.BussinessService.csproj" />
   </ItemGroup>
 

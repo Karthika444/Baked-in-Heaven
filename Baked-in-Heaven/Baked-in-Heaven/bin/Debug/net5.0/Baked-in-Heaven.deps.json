@@ -25,7 +25,6 @@
     ".NETCoreApp,Version=v5.0": {
       "Baked-in-Heaven/1.0.0": {
         "dependencies": {
-          "Baked-in-Heaven.Data-access": "1.0.0",
           "BakedInHeaven.BussinessService": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.1",
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": "5.0.1",
