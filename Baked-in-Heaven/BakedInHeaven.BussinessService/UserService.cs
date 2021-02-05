@@ -21,5 +21,24 @@ namespace BakedInHeaven.BussinessService
             return users.ToList();
 
         }
+        public void AddUser(User newUser)
+        {
+            List<User> data = new List<User>();
+            data = _userRepository.GetAllUsers();
+
+            foreach(var Element in data)
+            {
+                if(Element.Username == newUser.Username)
+                {
+                    break;
+                    //"with same name already exists";
+                }
+                else
+                {
+                    _userRepository.Add(newUser);
+                }
+            
+            }
+        }
     }
 }

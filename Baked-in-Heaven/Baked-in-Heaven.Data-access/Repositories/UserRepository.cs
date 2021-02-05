@@ -17,6 +17,12 @@ namespace Baked_in_Heaven.Data_access.Repositories
         {
             return _dbContext.Users.ToList();
         }
+        public void Add(User userEntity)
+        {
+            _dbContext.Users.Add(userEntity);
+            _dbContext.SaveChanges();
+        }
+
 
        
     }

@@ -26,9 +26,6 @@ namespace Baked_in_Heaven.Data_access.Migrations
                         .HasColumnType("integer")
                         .UseIdentityByDefaultColumn();
 
-                    b.Property<string>("CustomerId")
-                        .HasColumnType("text");
-
                     b.Property<int>("ItemId")
                         .HasColumnType("integer");
 
@@ -77,6 +74,9 @@ namespace Baked_in_Heaven.Data_access.Migrations
 
                     b.Property<int>("PhoneNumber")
                         .HasColumnType("integer");
+
+                    b.Property<string>("Username")
+                        .HasColumnType("text");
 
                     b.HasKey("UserId");
 

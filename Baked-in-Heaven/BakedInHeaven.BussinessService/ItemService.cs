@@ -56,8 +56,9 @@ namespace BakedInHeaven.BussinessService
                         }
 
                     }
-                    if (count > 4)
+                    if (count < 4)
                     {
+                        _itemRepository.Add(newItem);
 
                     }
 
@@ -135,8 +136,10 @@ namespace BakedInHeaven.BussinessService
                         }
 
                     }
-                    if (count > 4)
+                    if (count < 4)
                     {
+                        _itemRepository.Update(itemChange, id);
+
 
                     }
 

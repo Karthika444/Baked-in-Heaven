@@ -31,6 +31,14 @@ namespace Baked_in_Heaven
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(c => c.AddPolicy("angularPolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader();
+
+            }));
+
             services.AddTransient<IItemService, ItemService>();
             services.AddTransient<IItemRepository, ItemRepositories>();
 
@@ -59,6 +67,9 @@ namespace Baked_in_Heaven
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors("angularPolicy");
+
 
             app.UseAuthorization();
 

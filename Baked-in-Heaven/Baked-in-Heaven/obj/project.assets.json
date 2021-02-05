@@ -5776,19 +5776,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hp\\.nuget\\packages\\": {}
+    "C:\\Users\\karthika.gopi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Desktop\\Assessment\\Baked-in-Heaven\\Baked-in-Heaven\\Baked-in-Heaven.csproj",
+      "projectUniqueName": "C:\\Users\\karthika.gopi\\Desktop\\Assessment\\sampleBakedinHeaven\\Baked-in-Heaven\\Baked-in-Heaven\\Baked-in-Heaven.csproj",
       "projectName": "Baked-in-Heaven",
-      "projectPath": "C:\\Users\\hp\\Desktop\\Assessment\\Baked-in-Heaven\\Baked-in-Heaven\\Baked-in-Heaven.csproj",
-      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\Desktop\\Assessment\\Baked-in-Heaven\\Baked-in-Heaven\\obj\\",
+      "projectPath": "C:\\Users\\karthika.gopi\\Desktop\\Assessment\\sampleBakedinHeaven\\Baked-in-Heaven\\Baked-in-Heaven\\Baked-in-Heaven.csproj",
+      "packagesPath": "C:\\Users\\karthika.gopi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\karthika.gopi\\Desktop\\Assessment\\sampleBakedinHeaven\\Baked-in-Heaven\\Baked-in-Heaven\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\karthika.gopi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5802,8 +5802,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\hp\\Desktop\\Assessment\\Baked-in-Heaven\\BakedInHeaven.BussinessService\\BakedInHeaven.BussinessService.csproj": {
-              "projectPath": "C:\\Users\\hp\\Desktop\\Assessment\\Baked-in-Heaven\\BakedInHeaven.BussinessService\\BakedInHeaven.BussinessService.csproj"
+            "C:\\Users\\karthika.gopi\\Desktop\\Assessment\\sampleBakedinHeaven\\Baked-in-Heaven\\BakedInHeaven.BussinessService\\BakedInHeaven.BussinessService.csproj": {
+              "projectPath": "C:\\Users\\karthika.gopi\\Desktop\\Assessment\\sampleBakedinHeaven\\Baked-in-Heaven\\BakedInHeaven.BussinessService\\BakedInHeaven.BussinessService.csproj"
             }
           }
         }
@@ -5873,7 +5873,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
