@@ -1,0 +1,29 @@
+<div class="col-md-12">  
+    <h2> Item Details</h2>  
+    <div class="table-responsive table-container">  
+      <table class="table">  
+        <thead>  
+          <tr>  
+            <th>Id</th>  
+            <th>Item Name</th>  
+            <th>Price</th>  
+            <th>Quantity</th>
+          </tr>  
+        </thead>  
+        <tbody>  
+          <tr *ngFor="let item of items">  
+            <td class="hidden">{{item.id}}</td> 
+            <td>{{item.name}}</td>  
+            <td>{{item.price}}</td>  
+            <td>{{item.quantity}}</td>  
+            <td>  
+              <button (click)="apiService.deleteItem(item)" class="btn btn-info"> Delete</button>  
+              <button (click)="onClick(item.id)" style="margin-left: 20px;" class="btn btn-info">Edit </button> 
+               
+            </td>  
+          </tr>
+          <button (click)="addClick()" style="margin-left: 20px;" class="btn btn-info">Add</button>  
+        </tbody>  
+      </table>  
+    </div>  
+</div>
