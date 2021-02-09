@@ -19,7 +19,7 @@ namespace Baked_in_Heaven.Controllers
 
         }
         [HttpGet]
-        public List<User> GetAllItems()
+        public List<User> GetUsers()
         {
 
             return _userService.GetUsers();

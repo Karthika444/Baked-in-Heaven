@@ -11,7 +11,8 @@ namespace Baked_in_Heaven.Data_access.Repositories
         void Add(Item itemEntity);
         Item Update(Item itemChange,int id);
         bool Delete(int id);
-        List<Item> GetItems(); 
+        List<Item> GetItems();
+        Item GetItem(int id);
 
 
     }

@@ -43,8 +43,13 @@
 }
 .details{
   height: 170px;
-  width: 50%;
+  width: 25%;
   margin-top: 90px;
+  margin-left:80px;
+  padding:50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ede2a8;
+
   
 }
 .special-cont{

@@ -93,7 +93,7 @@ namespace BakedInHeaven.BussinessService
                 Quantity = x.Quantity,
                 Name = x.Name,
                 WeightInGrams = x.WeightInGrams
-            }).ToList();
+            }).OrderBy(x => x.Name).ThenBy(x => x.Availabledate).ToList();
 
         }
 
@@ -152,5 +152,14 @@ namespace BakedInHeaven.BussinessService
             }
 
         }
+        public Item Getitem(int id)
+        {
+            var items = _itemRepository.GetItem(id);
+            return items;
+
+
+
+        }
+
     }
 }

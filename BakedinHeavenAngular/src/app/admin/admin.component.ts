@@ -23,6 +23,7 @@ export class AdminComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.refreshItems();
   }
   onClick(id:number)
   {
@@ -32,6 +33,19 @@ export class AdminComponent implements OnInit {
   addClick(){
     this.router.navigate(['/edit-item/0'])
   }
+  deleteitem(item:any){
+    if(confirm('Are you sure??')){
+      this.apiService.deleteItem(item)
+        window.location.reload();
+      }
+  }
+  refreshItems(){
+    this.apiService.getItems().subscribe(data=>{
+      this.items=data;
+    });
+  }
+
+
  
 
 

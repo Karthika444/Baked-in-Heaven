@@ -41,13 +41,15 @@ namespace Baked_in_Heaven
 
             services.AddTransient<IItemService, ItemService>();
             services.AddTransient<IItemRepository, ItemRepositories>();
+            services.AddTransient<IUserService, UserService>();
+            services.AddTransient<IUserRepository, UserRepository>();
 
             var cs = "Host = localhost; Database = BakedInHeavenDb; Username = postgres; Password = Karthu@123";
             services.AddDbContext<applicationdbcontext>(options
                => options.UseNpgsql(cs));
 
 
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Baked_in_Heaven", Version = "v1" });

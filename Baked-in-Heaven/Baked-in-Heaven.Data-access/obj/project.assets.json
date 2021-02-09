@@ -860,11 +860,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karthika.gopi\\Desktop\\Assessment\\sampleBakedinHeaven\\Baked-in-Heaven\\Baked-in-Heaven.Data-access\\Baked-in-Heaven.Data-access.csproj",
+      "projectUniqueName": "C:\\Users\\karthika.gopi\\Desktop\\Baked-in-Heaven\\Baked-in-Heaven\\Baked-in-Heaven.Data-access\\Baked-in-Heaven.Data-access.csproj",
       "projectName": "Baked-in-Heaven.Data-access",
-      "projectPath": "C:\\Users\\karthika.gopi\\Desktop\\Assessment\\sampleBakedinHeaven\\Baked-in-Heaven\\Baked-in-Heaven.Data-access\\Baked-in-Heaven.Data-access.csproj",
+      "projectPath": "C:\\Users\\karthika.gopi\\Desktop\\Baked-in-Heaven\\Baked-in-Heaven\\Baked-in-Heaven.Data-access\\Baked-in-Heaven.Data-access.csproj",
       "packagesPath": "C:\\Users\\karthika.gopi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karthika.gopi\\Desktop\\Assessment\\sampleBakedinHeaven\\Baked-in-Heaven\\Baked-in-Heaven.Data-access\\obj\\",
+      "outputPath": "C:\\Users\\karthika.gopi\\Desktop\\Baked-in-Heaven\\Baked-in-Heaven\\Baked-in-Heaven.Data-access\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\karthika.gopi\\AppData\\Roaming\\NuGet\\NuGet.Config",

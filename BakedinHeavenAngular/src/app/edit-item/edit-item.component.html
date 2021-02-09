@@ -1,31 +1,55 @@
 <div class="d-flex flex-row bd-highlight mb-3">
-    <span>{{panelTitle}}</span>
+    <h1>{{panelTitle}}</h1>
     <div class="form-froup row" style="width: 60%;">
-    
+        <label class="col-sm-2 col-form-label">Item Id</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" [(ngModel)]="items.id"
+            placeholder="Enter Item id">
+        </div>
         <label class="col-sm-2 col-form-label">Item Name</label>
         <div class="col-sm-10">
-            <input type="text" class="form-control" [(ngModel)]="itemName"
+            <input type="text" class="form-control" [(ngModel)]="items.name"
             placeholder="Enter Item Name">
         </div>
         <label class="col-sm-2 col-form-label">Price</label>
         <div class="col-sm-10">
-            <input type="text" class="form-control" [(ngModel)]="price"
+            <input type="text" class="form-control" [(ngModel)]="items.price"
             placeholder="Enter Item Price">
         </div>
     
         <label class="col-sm-2 col-form-label">Quantity</label>
         <div class="col-sm-10">
-            <input type="text" class="form-control" [(ngModel)]="Quantity"
+            <input type="text" class="form-control" [(ngModel)]="items.quantity"
             placeholder="Enter Quantity">
         </div>
+        <label class="col-sm-2 col-form-label">WeightinGrams</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" [(ngModel)]="items.weightInGrams"
+            placeholder="Enter Quantity">
+        </div>
+        <label class="col-sm-2 col-form-label">Kcal</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" [(ngModel)]="items.kcal"
+             placeholder="Enter Kcal">
+        </div>
+
+        <label class="col-sm-2 col-form-label">IsVeg</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" [(ngModel)]="items.isVeg"
+            placeholder="Enter IsVeg or not">
+        </div>
+        <label class="col-sm-2 col-form-label">IsSpecial</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" [(ngModel)]="items.isSpecial"
+            placeholder="Enter IsSpecial or not">
+        </div>
+        <label class="col-sm-2 col-form-label">Available date</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" [(ngModel)]="items.availabledate"
+            placeholder="Enter Available date">
+        </div>
+
     </div>
-    
 </div>
-    
-<!--<button (click)="apiService.postItem(Item)" *ngIf="items.id==0" class="btn btn-primary">
-        Add
-</button>
-<button (click)="apiService.putItem(Item)" *ngIf="items.id!=0" class="btn btn-primary">
-    Add
-</button>
--->
+<button (click)="addClick(items)" *ngIf="itemid==0" class="btn btn-primary">Add</button>
+<button (click)="editClick(items)" *ngIf="itemid!=0" class="btn btn-primary">Edit</button>

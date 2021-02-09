@@ -705,11 +705,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karthika.gopi\\Desktop\\Assessment\\sampleBakedinHeaven\\Baked-in-Heaven\\BakedInHeaven.BussinessService\\BakedInHeaven.BussinessService.csproj",
+      "projectUniqueName": "C:\\Users\\karthika.gopi\\Desktop\\Baked-in-Heaven\\Baked-in-Heaven\\BakedInHeaven.BussinessService\\BakedInHeaven.BussinessService.csproj",
       "projectName": "BakedInHeaven.BussinessService",
-      "projectPath": "C:\\Users\\karthika.gopi\\Desktop\\Assessment\\sampleBakedinHeaven\\Baked-in-Heaven\\BakedInHeaven.BussinessService\\BakedInHeaven.BussinessService.csproj",
+      "projectPath": "C:\\Users\\karthika.gopi\\Desktop\\Baked-in-Heaven\\Baked-in-Heaven\\BakedInHeaven.BussinessService\\BakedInHeaven.BussinessService.csproj",
       "packagesPath": "C:\\Users\\karthika.gopi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karthika.gopi\\Desktop\\Assessment\\sampleBakedinHeaven\\Baked-in-Heaven\\BakedInHeaven.BussinessService\\obj\\",
+      "outputPath": "C:\\Users\\karthika.gopi\\Desktop\\Baked-in-Heaven\\Baked-in-Heaven\\BakedInHeaven.BussinessService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\karthika.gopi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -726,8 +726,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\karthika.gopi\\Desktop\\Assessment\\sampleBakedinHeaven\\Baked-in-Heaven\\Baked-in-Heaven.Data-access\\Baked-in-Heaven.Data-access.csproj": {
-              "projectPath": "C:\\Users\\karthika.gopi\\Desktop\\Assessment\\sampleBakedinHeaven\\Baked-in-Heaven\\Baked-in-Heaven.Data-access\\Baked-in-Heaven.Data-access.csproj"
+            "C:\\Users\\karthika.gopi\\Desktop\\Baked-in-Heaven\\Baked-in-Heaven\\Baked-in-Heaven.Data-access\\Baked-in-Heaven.Data-access.csproj": {
+              "projectPath": "C:\\Users\\karthika.gopi\\Desktop\\Baked-in-Heaven\\Baked-in-Heaven\\Baked-in-Heaven.Data-access\\Baked-in-Heaven.Data-access.csproj"
             }
           }
         }

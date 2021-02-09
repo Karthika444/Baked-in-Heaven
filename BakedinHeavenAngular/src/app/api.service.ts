@@ -18,15 +18,20 @@ export class ApiService {
   getItems(){
   return this.http.get("https://localhost:44317/api/Bakery");
   }
+  getItem(id:any){
+    return this.http.get(`https://localhost:44317/api/Bakery/${id}`)
+  }
+
   postItem(item: any){
     this.http.post('https://localhost:44317/api/Bakery',item).subscribe(res => {
         console.log(res);
     })
   }
   putItem(item: any){
-    this.http.put(`https://localhost:44317/api/Bakery${item.id}`,item).subscribe(res => {
+    this.http.put(`https://localhost:44317/api/Bakery/${item.id}`,item).subscribe(res => {
         console.log(res);
     });
+    
   }
 
 
@@ -36,8 +41,14 @@ export class ApiService {
       
 
     });
+
     
   }
+  getUsers()
+  {
+    return this.http.get("https://localhost:44317/api/User");
+  }
+
   
 
   

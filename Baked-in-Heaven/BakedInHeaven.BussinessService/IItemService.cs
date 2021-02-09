@@ -12,5 +12,6 @@ namespace BakedInHeaven.BussinessService
         void AddItem(Item newItem);
         void UpdateItem(Item itemChange,int id);
         void Delete(int id);
+        Item Getitem(int id);
     }
 }

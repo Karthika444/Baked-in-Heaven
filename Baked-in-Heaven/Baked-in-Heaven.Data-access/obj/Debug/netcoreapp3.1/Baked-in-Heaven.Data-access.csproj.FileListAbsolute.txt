@@ -22,3 +22,15 @@ C:\Users\karthika.gopi\Desktop\Assessment\sampleBakedinHeaven\Baked-in-Heaven\Ba
 C:\Users\karthika.gopi\Desktop\Assessment\sampleBakedinHeaven\Baked-in-Heaven\Baked-in-Heaven.Data-access\obj\Debug\netcoreapp3.1\Baked-in-Heaven.Data-access.dll
 C:\Users\karthika.gopi\Desktop\Assessment\sampleBakedinHeaven\Baked-in-Heaven\Baked-in-Heaven.Data-access\obj\Debug\netcoreapp3.1\Baked-in-Heaven.Data-access.pdb
 C:\Users\karthika.gopi\Desktop\Assessment\sampleBakedinHeaven\Baked-in-Heaven\Baked-in-Heaven.Data-access\obj\Debug\netcoreapp3.1\Baked-in-Heaven.Data-access.genruntimeconfig.cache
+C:\Users\karthika.gopi\Desktop\Baked-in-Heaven\Baked-in-Heaven\Baked-in-Heaven.Data-access\bin\Debug\netcoreapp3.1\Baked-in-Heaven.Data-access.deps.json
+C:\Users\karthika.gopi\Desktop\Baked-in-Heaven\Baked-in-Heaven\Baked-in-Heaven.Data-access\bin\Debug\netcoreapp3.1\Baked-in-Heaven.Data-access.runtimeconfig.json
+C:\Users\karthika.gopi\Desktop\Baked-in-Heaven\Baked-in-Heaven\Baked-in-Heaven.Data-access\bin\Debug\netcoreapp3.1\Baked-in-Heaven.Data-access.runtimeconfig.dev.json
+C:\Users\karthika.gopi\Desktop\Baked-in-Heaven\Baked-in-Heaven\Baked-in-Heaven.Data-access\bin\Debug\netcoreapp3.1\Baked-in-Heaven.Data-access.dll
+C:\Users\karthika.gopi\Desktop\Baked-in-Heaven\Baked-in-Heaven\Baked-in-Heaven.Data-access\bin\Debug\netcoreapp3.1\Baked-in-Heaven.Data-access.pdb
+C:\Users\karthika.gopi\Desktop\Baked-in-Heaven\Baked-in-Heaven\Baked-in-Heaven.Data-access\obj\Debug\netcoreapp3.1\Baked-in-Heaven.Data-access.csprojAssemblyReference.cache
+C:\Users\karthika.gopi\Desktop\Baked-in-Heaven\Baked-in-Heaven\Baked-in-Heaven.Data-access\obj\Debug\netcoreapp3.1\Baked-in-Heaven.Data-access.AssemblyInfoInputs.cache
+C:\Users\karthika.gopi\Desktop\Baked-in-Heaven\Baked-in-Heaven\Baked-in-Heaven.Data-access\obj\Debug\netcoreapp3.1\Baked-in-Heaven.Data-access.AssemblyInfo.cs
+C:\Users\karthika.gopi\Desktop\Baked-in-Heaven\Baked-in-Heaven\Baked-in-Heaven.Data-access\obj\Debug\netcoreapp3.1\Baked-in-Heaven.Data-access.csproj.CoreCompileInputs.cache
+C:\Users\karthika.gopi\Desktop\Baked-in-Heaven\Baked-in-Heaven\Baked-in-Heaven.Data-access\obj\Debug\netcoreapp3.1\Baked-in-Heaven.Data-access.dll
+C:\Users\karthika.gopi\Desktop\Baked-in-Heaven\Baked-in-Heaven\Baked-in-Heaven.Data-access\obj\Debug\netcoreapp3.1\Baked-in-Heaven.Data-access.pdb
+C:\Users\karthika.gopi\Desktop\Baked-in-Heaven\Baked-in-Heaven\Baked-in-Heaven.Data-access\obj\Debug\netcoreapp3.1\Baked-in-Heaven.Data-access.genruntimeconfig.cache

@@ -62,6 +62,12 @@ namespace Baked_in_Heaven.Data_access.Repositories
             }
             return item;
         }
+        public Item GetItem(int id)
+        {
+            Item item = _dbContext.Items.Where(x => x.Id == id).FirstOrDefault();
+            return item;
+        }
+
     }
 
 }

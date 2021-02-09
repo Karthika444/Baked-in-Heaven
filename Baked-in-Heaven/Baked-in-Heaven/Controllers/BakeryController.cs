@@ -47,6 +47,14 @@ namespace Baked_in_Heaven.Controllers
             _itemService.UpdateItem(item, Id);
         }
 
+        [HttpGet("{Id}")]
+        public Item Getitem(int Id)
+        {
+
+            return _itemService.Getitem(Id);
+        }
+
+
 
     }
 }
