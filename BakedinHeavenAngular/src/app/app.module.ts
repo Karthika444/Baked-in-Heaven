@@ -11,6 +11,24 @@ import { RouterModule } from '@angular/router';
 import { AdminComponent } from './admin/admin.component';
 import { EditItemComponent } from './edit-item/edit-item.component';
 import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSidenavModule} from '@angular/material/sidenav';
+import { MatListModule} from '@angular/material/list';
+import { MatButtonModule} from '@angular/material/button';
+import { MatIconModule} from '@angular/material/icon';
+import { LoginComponent } from './login/login.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import {MatCardModule} from '@angular/material/card';
+
+
+
+
+
+
+
+
+
 
 
 @NgModule({
@@ -20,6 +38,8 @@ import { FormsModule } from '@angular/forms';
     ItemComponent,
     AdminComponent,
     EditItemComponent,
+    LoginComponent,
+  
     
     
 
@@ -29,7 +49,17 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     HttpClientModule,
     RouterModule,
-    FormsModule,  
+    FormsModule,
+    BrowserAnimationsModule, 
+    MatToolbarModule,
+    MatSidenavModule, 
+    MatListModule,
+    MatButtonModule,
+    MatIconModule,
+    ReactiveFormsModule,
+    MatCardModule,
+   
+ 
 
  
   ],

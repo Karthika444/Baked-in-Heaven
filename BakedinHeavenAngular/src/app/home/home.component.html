@@ -1,34 +1,55 @@
 <div class ="container">
-    <div class ="logo-part">
+    <mat-toolbar class="head">
+        <mat-toolbar-row>
+         <img  class="imagecontainer" src="https://st3.depositphotos.com/3986623/12694/v/950/depositphotos_126943076-stock-illustration-vintage-retro-bakery-logo-badge.jpg
+         "   alt="Bakery">
+         <a href="https://fontmeme.com/calligraphy-fonts/"><img src="https://fontmeme.com/permalink/210216/69cb8c63dcd3557b2190351c93b25a8b.png" alt="calligraphy-fonts" border="0"></a>
+          <span class="menu-spacer"></span>
+          <div class="links">
+            <a mat-button [routerLink]="'/home'"> Home </a>
+            <a mat-button [routerLink]="'/item'"> Items </a>
+            <a mat-button [routerLink]="'/abc'"> Login </a>
+          </div>
+        </mat-toolbar-row>
         
-        <img  class="imagecontainer" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCTHTqczYF0PdUYLZ0gtvBFae-VNSFQ6XAmg&usqp=CAU"   alt="Bakery">
-        <p>Baked in Heaven</p>
-
+    </mat-toolbar>
+    <div class="bakery-details">
+        <img src="https://www.passarella.gr/files/eshop/homePageSlideshow/P1170081_295_48.jpg" alt="Bakery" class ="bakeryimage">
+        <div class="centered">
+            <i>A Messy <strong class="mid">KITCHEN</strong> is a Sign of Happiness</i>
+            <div><hr width="1" size="500"></div>
+            
+        </div>
+        <p class="description"><i>In our store there are astonishing children adornments, which upgrade the delight of dressing considerably further. The things are hand-picked, taking incredible consideration, that the material is certifiable or embellishments cause no mischief to the child’s supple skin.</i></p>
+        
     </div>
-    <div class =login-part>
-        <div class ="login-form">
-            <form id="login">
-                <label class=login-label>Username</label>
-                <br>
-                <input class="inp"  name="username" type ="text" placeholder="Username" [(ngModel)]="myusername"><br><br>
+   
 
-                <label class="login-label">Password</label>
-                <br>
-                <input class="inp" type = "Password" placeholder="Password" [(ngModel)]="mypassword" name="password"  required><br><br>
-                <button id ="login-button" (click)="login()">Login</button>
-                <h4>or</h4>
-                <button id="signup-button">Signup</button>
-            </form>    
-        </div>
-        <div class="bakery-details">
-            <img src="https://static.toiimg.com/photo/48201473.cms" alt="Bakery" class ="bakeryimage">
-            <div class="contact">
-                <h4>Email : {{Email}} <br>Phone :  {{Phone}}</h4>
-            </div>
+</div>
+<div class="contact">
+  <h1 class="heading"><i>Contact Us</i></h1>
+  <div class="row">
+      <div class="col-sm-4">
+        <mat-icon> phone</mat-icon>
+        <h2>Phone</h2>
+        <p>{{Phone}}</p>
 
-        </div>
-    </div>        
-        
+      </div>
+      <div class="col-sm-4">
+        <mat-icon> email</mat-icon>
+        <h2>Email</h2>
+        <p>{{Email}}</p>
+
+      </div>
+      <div class="col-sm-4">
+        <mat-icon> location_on</mat-icon>
+        <h2>Address</h2>
+        <p>Baked in Heaven<br>Vazhakulam<br>Near private Bus stand</p>
+
+      </div>
+
+  </div>
+  
 </div>
 
 

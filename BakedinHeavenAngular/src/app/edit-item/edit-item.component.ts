@@ -46,7 +46,9 @@ export class EditItemComponent{
         name :"",
         price : "",
         quantity :"",
-        weightInGrams:""
+        weightInGrams:"",
+        
+
         
       }
     }

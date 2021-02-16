@@ -32,23 +32,28 @@
             <input type="text" class="form-control" [(ngModel)]="items.kcal"
              placeholder="Enter Kcal">
         </div>
-
         <label class="col-sm-2 col-form-label">IsVeg</label>
-        <div class="col-sm-10">
-            <input type="text" class="form-control" [(ngModel)]="items.isVeg"
-            placeholder="Enter IsVeg or not">
-        </div>
-        <label class="col-sm-2 col-form-label">IsSpecial</label>
-        <div class="col-sm-10">
-            <input type="text" class="form-control" [(ngModel)]="items.isSpecial"
-            placeholder="Enter IsSpecial or not">
-        </div>
-        <label class="col-sm-2 col-form-label">Available date</label>
+        <div>
+            <input type="radio" id="veg" name="isVeg" value="Veg" [(ngModel)]="items.isVeg">
+            <label for="veg">Veg</label><br>
+            <input type="radio" id="Nonveg" name="isVeg" value="NonVeg" [(ngModel)]="items.isVeg">
+            <label for="Nonveg">NonVeg</label><br>
+       </div>
+       <label class="col-sm-2 col-form-label">IsSpecial</label>
+        <div>
+            <input type="radio" id="special" name="isVeg" value="special" [(ngModel)]="items.isSpecial">
+            <label for="special">Special</label><br>
+            <input type="radio" id="Nonspecial" name="isVeg" value="nonspecial" [(ngModel)]="items.isSpecial">
+            <label for="Nonspecial">NonSpecial</label><br>
+       </div>
+       <br>
+      
+        <label class="col-sm-8 col-form-label">Available date</label>
         <div class="col-sm-10">
             <input type="text" class="form-control" [(ngModel)]="items.availabledate"
             placeholder="Enter Available date">
         </div>
-
+        
     </div>
 </div>
 <button (click)="addClick(items)" *ngIf="itemid==0" class="btn btn-primary">Add</button>
